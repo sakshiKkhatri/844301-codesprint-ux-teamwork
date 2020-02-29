@@ -1,0 +1,18 @@
+div{
+    width: min(25vw, 170px);
+    height:150vh;
+    background-color: #ffebee;
+    overflow:auto;
+    
+}
+li{
+    background-color: #ffebee;
+}
+li a {
+
+    display: block;
+    color: #000;
+    text-decoration: none;
+    width: 150px;
+  
+  }

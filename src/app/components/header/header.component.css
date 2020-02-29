@@ -1,0 +1,16 @@
+.clearfix {
+    overflow: auto;
+    height: 20%;
+  }
+.logo {
+    float: left;
+    margin-top: 10px;
+    max-width: 120px;
+    max-height: 80px;
+  }
+.heading{ 
+    font-size: min(15vw, 80px);
+    
+}
+.grad1{
+  background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);}

@@ -1,0 +1,10 @@
+table{
+    width: 80vw;
+    float: left;
+
+}
+.aligner{
+    float: left;
+    width: min(60vw,80vw);
+    
+}

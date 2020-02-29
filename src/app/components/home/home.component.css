@@ -1,0 +1,42 @@
+img{
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.homewrapper{
+    margin-top: 20px;
+    height: 60vh;
+}
+
+.myButton {
+
+	background-color:#ff8080;
+	border-radius:35px;
+	border:1px solid #ff6666;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:20px;
+	padding:10px 60px;
+	text-decoration:none;
+    text-align: center;
+    
+	
+
+}
+
+.myButton:hover {
+
+	background-color:#ff0000;
+	color: #ffffff;
+
+}
+
+.myButton:active {
+
+	position:relative;
+	top:1px;
+
+}
+
+.myButton:focus { outline-style: none; }

@@ -1,0 +1,27 @@
+<div class="aligner">
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">S.no</th>
+        <th scope="col">Name</th>
+        <th scope="col">Product ID</th>
+        <th scope="col">Amount</th>
+        <th scope="col">Address</th>
+        <th scope="col">City</th>
+        <th scope="col">Phone</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor = "let vo of viewOrder;let i=index">
+          <td>{{i+1}}</td>
+          <td>{{ vo.FirstName }}</td>
+          <td>{{ vo.productid }}</td>
+          <td>{{ vo.Amount | currency: "INR" }}</td>
+          <td>{{ vo.Address }}</td>
+          <td>{{ vo.City }}</td>
+          <td>{{ vo.PhoneNo }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+ 
